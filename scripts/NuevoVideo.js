@@ -49,4 +49,3 @@ formulario.addEventListener('submit', (event) => {
     })
 });
 
-
