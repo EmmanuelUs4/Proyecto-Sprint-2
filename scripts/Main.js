@@ -57,7 +57,7 @@ const vidYutu = [
         Min: "/images/6.jpg",
         views: "12.455",
         id: 6,
-        link: "https://www.youtube.com/embed/NXkY1gLTbk8",
+        link: "https://www.youtube.com/embed/It8hhWDjP0E",
         date: "10 ene. 2022"
     }, {
         title: "Grim Salvo - HEART OF DARKNESS (OFFICIAL AUDIO)",
@@ -66,7 +66,7 @@ const vidYutu = [
         Min: "/images/7.jpg",
         views: "976.453",
         id: 7,
-        link: "https://www.youtube.com/embed/It8hhWDjP0E",
+        link: "https://www.youtube.com/embed/vDjaxGXrb5k",
         date: "10 ene. 2022"
     }, {
         title: "Mind Games",
@@ -112,7 +112,7 @@ const vidYutu = [
         views: "123.534",
         id: 12,
         date: "1 ene. 2022",
-        link:"images/12.jpg",
+        link:"/images/12.jpg",
     },
     {
         title: "Grim Salvo - Contact Your Local Liquidator (OFFICIAL AUDIO)",
@@ -122,7 +122,7 @@ const vidYutu = [
         views: "4.356.345",
         id: 13,
         date: "1 ene. 2022",
-        link:"images/13.jpg",
+        link:"/images/13.jpg",
     },
     {
         title: "Patricio en un caballito - 10 horas | Patrick riding a seahorse - 10 hours",
@@ -132,7 +132,7 @@ const vidYutu = [
         views: "59.282",
         id: 14,
         date: "1 ene. 2022",
-        link:"images/14.jpg",
+        link:"/images/14.jpg",
     },
     {
         title: "¡AGÓNICA VICTORIA DE LA VECCHIA SIGNORA PARA SEGUIR EN LA PELEA! | Cremonese 0-1 Juventus | RESUMEN",
@@ -142,7 +142,7 @@ const vidYutu = [
         views: "54.342",
         id: 15,
         date: "11 dic. 2022",
-        link:"images/15.jpg",
+        link:"/images/15.jpg",
     },
     {
         title: "Viaje al principio de los tiempos",
@@ -152,7 +152,7 @@ const vidYutu = [
         views: "544.152",
         id: 16,
         date: "11 dic. 2022",
-        link:"images/16.jpg",
+        link:"/images/16.jpg",
     },
     {
         title: "¡EL NEROAZZURRO SE QUEDÓ CON EL INVICTO DEL LÍDER DE LA SERIE A! | Inter 1-0 Napoli | RESUMEN",
@@ -162,7 +162,7 @@ const vidYutu = [
         views: "532.463",
         id: 17,
         date: "11 dic. 2022",
-        link:"images/17.jpg",
+        link:"/images/17.jpg",
     },
     {
         title: "Dinosaur Size Comparison 3D - Smallest to Biggest",
@@ -172,7 +172,7 @@ const vidYutu = [
         views: "5 M",
         id: 18,
         date: "29 dic. 2022",
-        link:"images/18.jpg",
+        link:"/images/18.jpg",
     },
     {
         title: "ZEUS | Destripando la Historia | Canción",
@@ -182,7 +182,7 @@ const vidYutu = [
         views: "5.1 M",
         id: 19,
         date: "29 dic. 2022",
-        link:"images/19.jpg",
+        link:"/images/19.jpg",
     },
     {
         title: "ARK: Survival Evolved Final Trailer",
@@ -192,7 +192,7 @@ const vidYutu = [
         views: "1.2 M",
         id: 20,
         date: "15 ago. 2022",
-        link:"images/20.jpg",
+        link:"/images/20.jpg",
     },
     {
         title: "BARBIE | Teaser",
@@ -202,7 +202,7 @@ const vidYutu = [
         views: "23 M",
         id: 21,
         date: "15 ago. 2022",
-        link:"images/21.jpg",
+        link:"/images/21.jpg",
     },
     {
         title: "ARK 2™ - Unreal Engine 5",
@@ -212,7 +212,7 @@ const vidYutu = [
         views: "21.543",
         id: 22,
         date: "15 ago. 2022",
-        link:"images/22.jpg",
+        link:"/images/22.jpg",
     },
     {
         title: "EL ICEBERG DE BEN 10 | DE MENOS A MAS RARO!",
@@ -222,7 +222,7 @@ const vidYutu = [
         views: "54.221",
         id: 23,
         date: "15 ago. 2022",
-        link:"images/23.jpg",
+        link:"/images/23.jpg",
     },
     {
         title: "Después de 18 AÑOS Completaron al Desafió Más Difícil de la Historia de los Videojuegos",
@@ -232,7 +232,7 @@ const vidYutu = [
         views: "12.435",
         id: 24,
         date: "11 dic. 2022",
-        link:"images/24.jpg",
+        link:"/images/24.jpg",
     },
     {
         title: "El Francotirador Más Temido en la Historia del FBI",
@@ -242,7 +242,7 @@ const vidYutu = [
         views: "12.664",
         id: 25,
         date: "11 dic. 2022",
-        link:"images/25.jpg",
+        link:"/images/25.jpg",
     },
     {
         title: "SECRETOS DE ESTADO: Dentro del Área 51 l EPISODIO COMPLETO",
@@ -252,7 +252,7 @@ const vidYutu = [
         views: "754.567",
         id: 26,
         date: "30 dic. 2022",
-        link:"images/26.jpg",
+        link:"/images/26.jpg",
     },
     {
         title: "El hielo que se derrite en el Ártico (1/2) | DW Documental",
@@ -262,7 +262,7 @@ const vidYutu = [
         views: "765.54",
         id: 27,
         date: "30 dic. 2022",
-        link:"images/27.jpg",
+        link:"/images/27.jpg",
     },
     {
         title: "¿Y si vivieras en Kepler 22 b?",
@@ -272,7 +272,7 @@ const vidYutu = [
         views: "467.434",
         id: 28,
         date: "30 dic. 2022",
-        link:"images/28.jpg",
+        link:"/images/28.jpg",
     },
     {
         title: "¿Cómo es Marte, el planeta rojo?",
@@ -282,7 +282,7 @@ const vidYutu = [
         views: "636.577",
         id: 29,
         date: "29 dic. 2022",
-        link:"images/29.jpg",
+        link:"/images/29.jpg",
     },
     {
         title: "TOP las 7 cosas más perturbadoras del Universo",
@@ -292,7 +292,7 @@ const vidYutu = [
         views: "567.532",
         id: 30,
         date: "29 dic. 2022",
-        link:"images/30.jpg",
+        link:"/images/30.jpg",
     },
     {
         title: "¿Quién es la misteriosa persona que amenazó a Kanye West?",
@@ -334,7 +334,7 @@ const printVideos = (listVids, contenedor) => {
     });
 };
 
-
+//Llamo la función, obteniéndolos
 
 const main = document.querySelector('.main');
 
@@ -342,9 +342,7 @@ const contenedorVids = document.getElementById("contenedorVids");
 
 printVideos(vidYutu, contenedorVids);
 
-// localStorage: guardado en PC
-// sesionStorage: guardado en navegador hasta cerrarse
-
+//Actualizando
 let videos = sessionStorage.getItem("videos") 
 ? JSON.parse(sessionStorage.getItem("videos")) 
 : [];
@@ -397,9 +395,6 @@ bFiltrado.forEach(button => {
 // redirección a la página de reproducción y características del video.
 
 document.addEventListener('click', (event)=>{
-
-
-
 
     const { target } = event;
 

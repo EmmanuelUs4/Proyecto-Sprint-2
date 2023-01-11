@@ -81,9 +81,14 @@ header {
         color: rgb(160, 157, 157);
         background-color:rgb(73, 73, 73);
     }
-
+.menu-fixed{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+}
 
 body{
+    margin-top: 100px;
     background: rgb(22, 22, 22);
 }
 #contenedorVids {
@@ -133,6 +138,7 @@ body{
         padding: 0px;
         
     }
+
         .medsMiniaturas img{
             width: 275px;
             height: 175px;
@@ -190,3 +196,9 @@ body{
             };
 
             
+            .medsMiniaturas:hover img{
+                cursor: pointer;
+            }
+            .miniatura:hover{
+                cursor: pointer;
+            }

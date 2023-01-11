@@ -1,22 +1,19 @@
-const StringVid = sessionStorage.getItem("reproduccion")
-    ? JSON.parse(sessionStorage.getItem("reproduccion"))
+const StringVid = sessionStorage.getItem("reproduccioncopy")
+    ? JSON.parse(sessionStorage.getItem("reproduccioncopy"))
     : null;
 
 const idVideo = StringVid ? parseInt(StringVid) : null;
-
-
 
 const videos = sessionStorage.getItem("videos")
     ? JSON.parse(sessionStorage.getItem("videos"))
     : [];
 
 
-
 const video = idVideo
     ? videos.find((video) => video.id === idVideo)
     : {};
 
-//Print del  iframe  y  sus datos, capturando los contenedores
+
 const contenedor = document.querySelector(".caracteristicasVid");
 const title = document.querySelector(".tituloVid");
 
@@ -26,7 +23,7 @@ contenedor.innerHTML = `
 
 <section class="caracteristicasVid">
                 
-                <iframe  src="${video.link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="725" height="400" src="${video.link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 
                 <article class="contInfoVid">
                 <article class="contCanal">
@@ -42,7 +39,7 @@ contenedor.innerHTML = `
 `;
 
 
-//Videos sugeridos
+
 
 const printVideos = (videos, contenedor) => {
     contenedor.innerHTML = '';
@@ -52,7 +49,7 @@ const printVideos = (videos, contenedor) => {
         article.innerHTML = `
 
         <figure class="medsMiniaturas">
-            <img src="${Video.Min}" alt="${Video.id}" class="miniatura" id=${Video.id}>
+        <img src="${Video.Min}" alt="${Video.id}" class="miniatura" id=${Video.id}>
         </figure>
         <h5 class="vidDur">13:55</h5>
         <article>
@@ -95,9 +92,8 @@ document.addEventListener('click', (event)=>{
     const { target } = event;
 
     if (target.classList.contains("miniatura")) {
-        
-        sessionStorage.setItem("reproduccioncopy", JSON.stringify(target.id));
-        window.location.href = "/html/reproduccioncopy.html";
+        sessionStorage.setItem("reproduccion", JSON.stringify(target.id));
+        window.location.href = "/html/reproduccion.html";
     }
 
     

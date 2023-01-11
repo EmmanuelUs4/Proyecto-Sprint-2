@@ -10,15 +10,18 @@ formulario.addEventListener('submit', (event) => {
     event.preventDefault();
 
     const valuesFormulario = Object.values(formulario);
-    
+
     const newVid = {};
+    // crear el id del nuevo video para poder reproducirlo
+    newVid.id = videos.length + 1;
+    console.log(newVid.id)
     valuesFormulario.forEach((valueInput) => {
         if (valueInput.id) {
             newVid[valueInput.id] = valueInput.value;
         }
     });
 
-    
+
 
     //Validar las propuedades del nuevo video, si no tienen valor entonces que no permita avanzar
     for (const key in newVid) {
