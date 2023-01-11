@@ -112,7 +112,7 @@ document.addEventListener('click', (event) => {
 
     if (target.classList.contains("logo")) {
 
-        window.location.href = "/html/Main.html";
+        window.location.href = "/Main.html";
     }
 
 
