@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/NuevoVideo.css">
+    <title>Subir nuevo video</title>
+</head>
+
+<body>
+
+    <header>
+
+        <section class="contLogo">
+
+            <a href="/html/Main.html" class="a">
+                <img src="/images/loguito.png" alt="Logo" class="logo">
+                <h1 class="headerTitulo">VideoTube</h1>
+            </a>
+
+            <h2 class="headerSubtitulo">Subir un video a la plataforma</h2>
+
+        </section>
+
+    </header>
+
+    <main>
+        <section class="contForm">
+            <form class="formulario">
+
+                <label for="title">Título del video</label>
+                <input type="text" id="title"placeholder="Nombre que tendrá el video">
+
+                <label for="artist">Creador del video</label>
+                <input type="text" id="Artist"placeholder="Nombre de quien sube el video">
+
+                <label for="video">Link del video</label>
+                <input type="url" id="video"placeholder="Video en formato embed">
+
+                <label for="Min">Miniatura</label>
+                <input type="url" id="Min"placeholder="Dirección de la miniatura">
+
+                <label for="views">Vistas</label>
+                <input type="number" id="views"placeholder="Número de vistas">
+
+                <label for="date">Fecha de subida</label>
+                <input type="text" id="date"placeholder="(DD) de (Mes.) (AAAA)">
+
+                <label for="id">ID del video</label>
+                <input type="text" id="id"placeholder="Número del video">
+
+                <label for="genre">Género</label>
+                <select name="" id="genre" class="select" placeholder="Seleccione">
+                    <option value="Seleccione">Seleccione</option>
+                    <option value="Musica">Musica</option>
+                    <option value="Entretenimiento">Entretenimiento</option>
+                    <option value="Documental">Documental</option>
+                    <option value="Gaming">Gaming</option>
+                    <option value="Deporte">Deporte</option>
+                </select>
+
+                <button type="submit" class="send">Subir video</button>
+
+            </form>
+
+        </section>
+
+        <section class="contImagen">
+            <figure class="imagen">
+                <img src="/images/loguito.png" alt="imagen">
+            </figure>
+        </section>
+
+    </main>
+
+    <script src="/scripts/NuevoVideo.js"></script>
+
+</body>
+
+</html>
